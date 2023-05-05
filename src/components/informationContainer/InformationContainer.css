@@ -1,0 +1,100 @@
+.informationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.deliveryContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceContainer div {
+    display: flex;
+    flex-direction: column;
+    color: #DAA520;
+}
+
+.deliveryContainer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+.deliveryContainer div a {
+    margin-left: 16px;
+    color: #DAA520;
+}
+
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border-color: black;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+    box-shadow: -5px 7px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+    .informationContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .informationContainer h1 {
+        font-size: 24px;
+    }
+
+    .deliveryContainer {
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .informationContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deliveryContainer {
+        text-align: center;
+    }
+
+    .serviceContainer div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .informationContainer h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .informationContainer h1 {
+        font-size: 24px;
+    }
+}

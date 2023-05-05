@@ -1,0 +1,58 @@
+.containerLocation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.textLocationContainer {
+    display: flex;
+    align-items: center;
+}
+
+.textLocationContainer img {
+    width: 40px;
+    height: 43px;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .map {
+        width: 500px;
+        height: 400px;
+        border: 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .map {
+        width: 380px;
+        height: 400px;
+        border: 0;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .map {
+        width: 330px;
+        height: 400px;
+        border: 0;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .map {
+        width: 250px;
+    }
+}
