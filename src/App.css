@@ -5,3 +5,17 @@
     width: 200px;
     z-index: 99999;
 }
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 140px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo {
+        width: 90px;
+        top: 0;
+    }
+}
